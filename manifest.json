@@ -1,0 +1,13 @@
+{
+  "id": "obsidian-embed-table-data",
+  "name": "Table Variable Resolver",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Resolve inline {row_name} variables in a note based on values from a markdown table in another note, generating a resolved copy.",
+  "author": "Your Name",
+  "authorUrl": "https://github.com/your-name",
+  "isDesktopOnly": false,
+  "js": "main.js"
+}
+
+

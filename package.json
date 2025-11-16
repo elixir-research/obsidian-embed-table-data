@@ -1,0 +1,29 @@
+{
+  "name": "obsidian-embed-table-data",
+  "version": "1.0.0",
+  "description": "Resolve inline variables in Obsidian notes using data from markdown tables in another note.",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "table",
+    "variables"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.0",
+    "obsidian": "latest"
+  }
+}
+
+
