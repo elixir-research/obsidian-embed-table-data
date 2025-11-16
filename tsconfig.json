@@ -1,8 +1,6 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "inlineSourceMap": true,
-    "inlineSources": true,
     "module": "esnext",
     "moduleResolution": "node",
     "target": "esnext",
@@ -15,14 +13,8 @@
     "alwaysStrict": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "lib": [
-      "dom",
-      "esnext"
-    ],
-    "types": [
-      "node",
-      "obsidian"
-    ]
+    "lib": ["dom", "esnext"],
+    "types": ["obsidian"]
   },
   "include": [
     "src/**/*"
